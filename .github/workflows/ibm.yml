@@ -3,8 +3,8 @@ name: IBM Cloud Auto Restart
 on:
   push:
     branches: [ master ]
-  schedule:
-    - cron: '35 13 * * 6'
+#  schedule:
+#    - cron: '35 13 * 9 2021'
 
 jobs:
   ibm-cloud-restart:
